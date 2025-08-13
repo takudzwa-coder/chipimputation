@@ -4,7 +4,7 @@ workflows:
   - subclass: nfl
     primaryDescriptorPath: /nextflow.config
     # primaryDescriptorPath: /main.nf
-    testParameterFiles: 
-      - /conf/test.config
+    # testParameterFiles: 
+    #   - /conf/test.config
     readMePath: /README.md
     publish: True
