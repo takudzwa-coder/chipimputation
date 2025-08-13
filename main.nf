@@ -9,7 +9,7 @@ include { filter_info; report_site_by_maf; plot_freq_comparison; report_well_imp
 report_accuracy_target; plot_accuracy_target; generate_frequency; plot_r2_SNPpos; plot_r2_SNPcount; plot_hist_r2_SNPcount; plot_MAF_r2; 
 average_r2 } from './modules/report'
 
-include { * } from './'
+include { assets; docs } from './'
 
 
 // Header log info
