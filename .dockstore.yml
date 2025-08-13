@@ -2,6 +2,7 @@
 version: master
 workflows:
   - subclass: nfl
-    primaryDescriptorPath: /nextflow.config
+    # primaryDescriptorPath: /nextflow.config
+    primaryDescriptorPath: /main.nf
     readMePath: /README.md
     publish: True
