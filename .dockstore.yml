@@ -1,5 +1,5 @@
 # Dockstore config version, not pipeline version
-version: master
+version: 1.0
 workflows:
   - subclass: NFL
     primaryDescriptorPath: /nextflow.config
