@@ -24,4 +24,4 @@ env:
     - NXF_VER=20.06.0
 
 script:
-  - nextflow run h3abionet/chipimputation -profile test,singularity
+  - nextflow run takudzwa-coder/chipimputation -profile test,singularity
