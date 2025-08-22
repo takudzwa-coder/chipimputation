@@ -1,10 +1,13 @@
-# Dockstore config version, not pipeline version
-version: 1.0
+version: 1.2
 workflows:
   - subclass: NFL
-    primaryDescriptorPath: /nextflow.config
-    # primaryDescriptorPath: /main.nf
-    # testParameterFiles: 
-    #   - /conf/test.config
-    readMePath: /README.md
-    publish: True
+    primaryDescriptorPath: /nextflow.config 
+  - subclass: NFL
+    primaryDescriptorPath: /tools/combine_report_dsl2.config
+    name: combine_report_dsl2
+  - subclass: NFL
+    primaryDescriptorPath: /tools/main-dsl2_imp5.config
+    name: main-dsl2_imp5 
+  - subclass: NFL
+    primaryDescriptorPath: /tools/main_old.config
+    name: main_old 
