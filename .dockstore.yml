@@ -4,6 +4,7 @@ workflows:
     primaryDescriptorPath: /nextflow.config
     otherFiles:
       - /assets
+      - /templates
   - subclass: NFL
     primaryDescriptorPath: /tools/combine_report_dsl2.config
     name: combine_report_dsl2
